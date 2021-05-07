@@ -8,6 +8,8 @@ function setup() {
   movingRect = createSprite(400,200,80,30);
   movingRect.shapeColor = "green";
   movingRect.debug = true;
+  gameObject1=createSprite(100,200,50,50);
+  gameObject1.shapeColor="green";
 }
 
 function draw() {
